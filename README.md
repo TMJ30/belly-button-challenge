@@ -8,4 +8,12 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 
 
-***Codes Used***
+***Codes Help from Professor***
+        
+        dashboardMeta.append("h6").text(`${info.toUpperCase()}: ${sampleMetadata[info]}`)}
+
+        dropdownMenu.append("option").text(sampleIDs[x]).property("value", sampleIDs[x])
+
+        buildCharts(startingSample)  
+        
+        buildMetadata(startingSample)
